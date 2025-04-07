@@ -113,9 +113,9 @@ body {
   align-items: center;
   justify-content: center;
   font-family: 'Arial', Helvetica, sans-serif;
-  font-size: 80px;
+  font-size: 50px;
   padding: 20px;
-  margin-top: 20px;
+  margin-bottom: 50px;
   border-radius: 12px;
   background:  #45a049;
   color: white;
@@ -123,10 +123,7 @@ body {
   
 }
 
-#battleWinner:hover {
-  background: linear-gradient(135deg, #ff6600, #ffcc00);
-  transform: scale(1.05);
-}
+
 
 button {
   width: 250px;
@@ -146,4 +143,20 @@ button {
 button:hover {
   background-color: #45a049;
   transform: scale(1.05);
+}
+footer{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  position: fixed;
+  height: 15px;
+  background-color: #0056b3;
+  font-family: 'Arial', sans-serif;
+  font-size: 15px;
+  bottom: 0px;
+  width: 100%;
+  padding: 17px;
+  color: white;
 }
